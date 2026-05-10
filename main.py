@@ -6,7 +6,7 @@ import os
 
 load_dotenv()
 
-api_key = os.getenv("GEMINI_API_KEY")
+api_key = api_key = "AIzaSyCLueyvaUZhYeSgHBAI56YSvC3yUY-DbI4"
 
 if not api_key:
     raise RuntimeError("GEMINI_API_KEY is missing")
