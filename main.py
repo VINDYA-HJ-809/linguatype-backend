@@ -8,7 +8,7 @@ genai.configure(api_key=api_key)
 
 app = FastAPI()
 
-model = genai.GenerativeModel("gemini-2.0-flash")
+model = genai.GenerativeModel("gemini-2.0-flash-lite")
 
 
 class TextRequest(BaseModel):
